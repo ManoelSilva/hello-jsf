@@ -25,10 +25,7 @@ public class HelloBean {
 	}
 
 	public void execute() {
-		if (name.equals("Júlia"))
-			message = "Olá " + name + " eu te amo!!!";
-		else
-			message = "Olá " + name + "!!!";
+		message = "Olá " + name + "!!!";
 	}
 
 }
